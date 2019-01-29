@@ -1,0 +1,23 @@
+{
+  "name": "devtools-for-angular",
+  "version": "0.0.0",
+  "description": "A tool for inspecting Angular 2+ component trees.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petermikitsh/devtools-for-angular.git"
+  },
+  "keywords": [
+    "angular",
+    "devtools"
+  ],
+  "author": "Peter Mikitsh <peter.mikitsh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petermikitsh/devtools-for-angular/issues"
+  },
+  "homepage": "https://github.com/petermikitsh/devtools-for-angular#readme"
+}
