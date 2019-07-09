@@ -1,0 +1,51 @@
+.split {
+  display: flex;
+  flex-direction: row;
+  font-family: Menlo, Consolas, monospace;
+  font-size: 11px;
+  color: rgb(90, 90, 90);
+  width: 100%;
+}
+
+.pane {
+  height: 100%;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.leftPane {
+  min-width: 50%;
+  flex: 1;
+}
+
+.leftPaneSettings {
+  background-color: #f3f3f3;
+  padding: 4px;
+  text-align: right;
+}
+
+.leftPaneTree {
+  padding: 8px 4px;
+}
+
+.rightPane {
+  padding: 8px;
+  font-weight: 700;
+  flex: initial;
+}
+
+:global(.gutter) {
+  margin: 0 -5px;
+  padding: 0 5px;
+  /* box-sizing: border-box; */
+  cursor: ew-resize;
+  z-index: 1;
+}
+
+:global(.gutter)::after {
+  content: ' ';
+  background-color: rgb(136, 136, 136);
+  height: 100%;
+  width: 1px;
+  position: absolute;
+}

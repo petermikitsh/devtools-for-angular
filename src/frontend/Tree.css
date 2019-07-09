@@ -1,0 +1,57 @@
+.treeNode {
+  user-select: none;
+  position: relative;
+}
+
+.toggle {
+  /* margin-left: -16px; */
+  width: 16px;
+  padding: 0;
+  border: none;
+  padding: none;
+  align-self: flex-start;
+  background: transparent;
+}
+
+.toggle:focus {
+  outline: none;
+}
+
+.tagName {
+  color: rgb(136, 18, 128);
+}
+
+.attrName {
+  color: rgb(153, 69, 0);
+}
+
+.attrValue {
+  color: rgb(26, 26, 166);
+}
+
+.expanded {
+  padding-left: 16px;
+}
+
+.text {
+  padding-left: 32px;
+  color: rgb(153, 69, 0);
+}
+
+.hr {
+  position: absolute;
+  width: 1px;
+  border-left: 1px solid transparent;
+  top: 14px;
+  bottom: 0px;
+  left: 8px;
+  z-index: 0;
+}
+
+.treeLabel:hover {
+  background-color: rgb(235, 241, 251);
+}
+
+.treeLabel:hover ~ .hr {
+  border-left: 1px solid rgb(235, 241, 251);
+}
